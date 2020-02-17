@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru"
+      xml:lang="ru">
+<head>
+	<meta charset=utf-8>
+	<title>Какая сейчас неделя?</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:100" rel="stylesheet">
+</head>
+<body onload="realTimeClock()">
+	<div class="main-container">
+		<h1>Сейчас</h1>
+		<div id="clock"></div>
+		<div id="week">
+			<script type="text/javascript">getWeekName()</script>
+		</div>
+		<img class="img-background" src="image/image.jpg">
+	</div>
+</body>
+</html>
